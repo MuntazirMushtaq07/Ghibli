@@ -1,0 +1,110 @@
+/* Home.css */
+
+.home-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  padding: 0;
+  background-color: #fefefe;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #e0f7fa;
+}
+
+.main-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.main-tagline {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  max-width: 200px;
+  margin-top: 10px;
+}
+
+.about-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  max-width: 90%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.founders-section {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.founders-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.founders-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.founder-card {
+  max-width: 260px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.founder-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.founder-card h3 {
+  margin: 15px 0 5px;
+  font-size: 20px;
+}
+
+.founder-card p {
+  font-size: 14px;
+  color: #444;
+}
+
+.ghibli-legacy {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.ghibli-legacy h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.home-footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}

@@ -1,0 +1,77 @@
+/* Post.css */
+
+.post-container {
+  padding: 60px 30px;
+  background: linear-gradient(to right, #fff9f0, #fdf6e3);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.post-heading {
+  font-size: 36px;
+  text-align: center;
+  color: #264653;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 40px auto;
+  padding: 30px;
+  max-width: 1000px;
+  gap: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.movie-image {
+  flex: 1 1 300px;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.movie-info {
+  flex: 2 1 500px;
+}
+
+.movie-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #2a9d8f;
+  margin-bottom: 20px;
+}
+
+.movie-info p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.movie-info strong {
+  color: #1d3557;
+}
+
+.movie-description {
+  margin-top: 20px;
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: #555;
+  background: #f1f7f9;
+  padding: 18px;
+  border-left: 6px solid #a8dadc;
+  border-radius: 8px;
+}
