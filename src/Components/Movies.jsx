@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 import './Movies.css' // ✅ add this line
 
 function Movies() {
-  const [movies, setMovie] = useState(data)
+  const [movies] = useState(data)
+
 
   return (
     <div className="movies-container">
